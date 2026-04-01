@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6cc24a;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.talk-btn {
+    background: #6cc24a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* CONTACT BAR */
+.contact-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.contact-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin-icon {
+    font-size: 20px;
+    color: white;
+}
+
+.linkedin-icon:hover {
+    color: #0A66C2;
+}
