@@ -1,0 +1,167 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6cc24a;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #6cc24a;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* HERO BUTTONS */
+.hero-buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* COMMON BUTTON STYLE (IMPORTANT) */
+.hero-buttons button {
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 42px; /* FORCE SAME HEIGHT */
+}
+
+/* PRIMARY BUTTON */
+.talk-btn {
+    background: #6cc24a;
+    color: white;
+    border: none;
+}
+
+.talk-btn:hover {
+    background: #5ab53d;
+    transform: scale(1.05);
+}
+
+/* SECONDARY BUTTON */
+.outline-btn {
+    border: 2px solid #6cc24a;
+    background: transparent;
+    color: #6cc24a;
+}
+
+.outline-btn:hover {
+    background: #6cc24a;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* SERVICES */
+.services h2 {
+    font-size: 32px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+}
+
+/* FOOTER */
+.contact-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.linkedin-icon {
+    font-size: 20px;
+    color: white;
+}
+
+.linkedin-icon:hover {
+    color: #0A66C2;
+}
